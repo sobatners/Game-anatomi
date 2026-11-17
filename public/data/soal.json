@@ -1,0 +1,320 @@
+{
+ "version": "144c564aa3",
+ "kkm": 75,
+ "missions": {
+  "1": [
+   {
+    "id": "m1q1",
+    "question": "Mengapa udara lebih baik masuk melalui hidung dibandingkan mulut saat bernapas?",
+    "options": [
+     "Hidung menyaring debu, menghangatkan, dan melembapkan udara",
+     "Hidung langsung menukar oksigen dengan darah tanpa paru-paru",
+     "Mulut tidak terhubung dengan tenggorokan sama sekali",
+     "Udara lewat hidung tidak membutuhkan bantuan diafragma"
+    ],
+    "correctIndex": 0,
+    "hint": "Perhatikan peran rambut halus (silia), selaput lendir (mukus), dan konka di dalam rongga hidung.",
+    "explanation": "Rongga hidung memiliki silia dan mukus untuk menyaring debu/kuman serta pembuluh darah di konka untuk menghangatkan dan melembapkan udara."
+   },
+   {
+    "id": "m1q2",
+    "question": "Bagian saluran napas atas yang menjadi persimpangan jalur udara dan jalur makanan disebut...",
+    "options": [
+     "Alveolus",
+     "Faring",
+     "Bronkiolus",
+     "Diafragma"
+    ],
+    "correctIndex": 1,
+    "hint": "Letaknya tepat di belakang rongga hidung dan rongga mulut.",
+    "explanation": "Faring (tekak) merupakan persimpangan antara saluran pernapasan (menuju laring) dan saluran pencernaan (menuju kerongkongan)."
+   }
+  ],
+  "2": [
+   {
+    "id": "m2q1",
+    "question": "Katup pada laring yang menutup saluran napas ketika kita menelan makanan agar tidak tersedak adalah...",
+    "options": [
+     "Pleura",
+     "Epiglotis",
+     "Silia",
+     "Karina"
+    ],
+    "correctIndex": 1,
+    "hint": "Katup ini berada tepat di bagian atas pangkal tenggorokan (laring).",
+    "explanation": "Epiglotis menutup pintu masuk laring saat proses menelan sehingga makanan/minuman masuk ke kerongkongan, bukan ke trakea."
+   },
+   {
+    "id": "m2q2",
+    "question": "Apa fungsi cincin tulang rawan berbentuk huruf C pada dinding trakea?",
+    "options": [
+     "Menghasilkan sel darah merah baru",
+     "Menjaga agar saluran trakea tetap terbuka dan tidak kempis",
+     "Mengubah gas karbon dioksida menjadi oksigen",
+     "Mendorong makanan turun menuju lambung"
+    ],
+    "correctIndex": 1,
+    "hint": "Bayangkan selang penyedot yang harus tetap kokoh saat udara ditarik kuat.",
+    "explanation": "Cincin tulang rawan hialin menjaga trakea tetap terbuka (paten) meskipun tekanan udara di dalam berubah saat menarik napas kuat."
+   }
+  ],
+  "3": [
+   {
+    "id": "m3q1",
+    "question": "Urutan aliran udara yang benar setelah melewati trakea adalah...",
+    "options": [
+     "Laring → Bronkus → Alveolus",
+     "Bronkus → Bronkiolus → Alveolus",
+     "Alveolus → Bronkiolus → Bronkus",
+     "Bronkiolus → Faring → Paru-paru"
+    ],
+    "correctIndex": 1,
+    "hint": "Cabang besar disebut bronkus, cabang halusnya disebut bronkiolus, lalu bermuara di kantung udara.",
+    "explanation": "Setelah trakea, udara masuk ke bronkus primer, menyebar ke cabang lebih kecil (bronkiolus), dan berakhir di alveolus."
+   },
+   {
+    "id": "m3q2",
+    "question": "Mengapa paru-paru kanan memiliki 3 lobus sedangkan paru-paru kiri hanya 2 lobus?",
+    "options": [
+     "Karena paru kiri tidak ikut bernapas",
+     "Karena sisi kiri rongga dada memberi ruang untuk jantung",
+     "Karena bronkus kanan tersumbat tulang rusuk",
+     "Karena diafragma hanya berada di sisi kanan"
+    ],
+    "correctIndex": 1,
+    "hint": "Ingat letak organ pemompa darah yang sedikit condong ke sebelah kiri dada.",
+    "explanation": "Paru-paru kiri memiliki lekukan jantung (cardiac notch) dan 2 lobus karena posisi jantung condong ke sisi kiri rongga toraks."
+   }
+  ],
+  "4": [
+   {
+    "id": "m4q1",
+    "question": "Proses pertukaran gas O₂ dan CO₂ antara alveolus dan pembuluh kapiler darah berlangsung secara...",
+    "options": [
+     "Difusi",
+     "Osmosis",
+     "Filtrasi",
+     "Pencernaan"
+    ],
+    "correctIndex": 0,
+    "hint": "Gas berpindah alami dari tempat berkonsentrasi tinggi ke tempat berkonsentrasi rendah.",
+    "explanation": "Gas O₂ (tinggi di alveolus) dan CO₂ (tinggi di darah kapiler) bertukar melewati dinding tipis alveolus melalui proses difusi."
+   },
+   {
+    "id": "m4q2",
+    "question": "Zat di dalam sel darah merah yang bertugas mengikat oksigen dari alveolus adalah...",
+    "options": [
+     "Klorofil",
+     "Hemoglobin",
+     "Amilase",
+     "Trombosit"
+    ],
+    "correctIndex": 1,
+    "hint": "Protein mengandung zat besi yang membuat darah berwarna merah cerah.",
+    "explanation": "Hemoglobin (Hb) di dalam eritrosit mengikat oksigen membentuk oksihemoglobin (HbO₂) untuk diedarkan ke seluruh sel tubuh."
+   }
+  ],
+  "5": [
+   {
+    "id": "m5q1",
+    "question": "Apa yang terjadi pada otot diafragma dan volume rongga dada saat kita menarik napas (inspirasi)?",
+    "options": [
+     "Diafragma relaksasi melengkung ke atas dan rongga dada mengecil",
+     "Diafragma berkontraksi mendatar ke bawah dan rongga dada membesar",
+     "Diafragma berhenti bergerak sementara paru-paru mengempis",
+     "Tekanan udara di paru menjadi jauh lebih tinggi dari udara luar"
+    ],
+    "correctIndex": 1,
+    "hint": "Agar udara masuk, ruang di dalam dada harus menjadi lebih luas sehingga tekanannya turun.",
+    "explanation": "Saat inspirasi, diafragma berkontraksi (mendatar), volume rongga dada membesar, tekanan intrapulmonal turun di bawah tekanan atmosfer sehingga udara mengalir masuk."
+   },
+   {
+    "id": "m5q2",
+    "question": "Jika seseorang memiliki frekuensi napas normal saat istirahat, berapa kisaran laju napas per menitnya?",
+    "options": [
+     "2–5 kali/menit",
+     "12–20 kali/menit",
+     "45–60 kali/menit",
+     "80–100 kali/menit"
+    ],
+    "correctIndex": 1,
+    "hint": "Sekitar satu kali tarik-buang napas setiap 3 hingga 5 detik.",
+    "explanation": "Frekuensi napas (Respiratory Rate) normal pada remaja dan dewasa saat istirahat adalah sekitar 12–20 kali per menit."
+   }
+  ]
+ },
+ "cases": {
+  "1": {
+   "options": [
+    "Asma Bronkial",
+    "Efusi Pleura Kanan",
+    "Pneumotoraks Kiri",
+    "Pneumonia Lobaris"
+   ],
+   "correctIndex": 0,
+   "explanation": "Paparan debu memicu penyempitan otot polos bronkiolus (bronkospasme). Hal ini ditandai dengan takipnea, ekspirasi memanjang, perkusi sonor normal, dan auskultasi wheezing (mengi) di kedua paru."
+  },
+  "2": {
+   "options": [
+    "Asma Bronkial",
+    "Pneumonia (Infeksi Paru Kanan)",
+    "Pneumotoraks Spontan",
+    "Stridor Laring"
+   ],
+   "correctIndex": 1,
+   "explanation": "Demam tinggi, dahak kental, fremitus meningkat, perkusi redup di basal kanan, dan suara auskultasi ronki basah halus (crackles) merupakan ciri khas Pneumonia (infeksi alveolus)."
+  },
+  "3": {
+   "options": [
+    "Efusi Pleura Kanan",
+    "Asma Bronkial",
+    "Pneumotoraks Kanan",
+    "Bronkitis Ringan"
+   ],
+   "correctIndex": 0,
+   "explanation": "Penumpukan cairan di rongga pleura kanan menghalangi pengembangan paru dan meredam suara: dada kanan tertinggal, fremitus menurun/hilang, dan perkusi pekak."
+  },
+  "4": {
+   "options": [
+    "Pneumonia Kiri",
+    "Pneumotoraks Kiri",
+    "Efusi Pleura Kiri",
+    "Asma Bronkial"
+   ],
+   "correctIndex": 1,
+   "explanation": "Masuknya udara ke rongga pleura membuat paru kiri kolaps/mengempis. Ciri utamanya adalah dada kiri tertinggal, fremitus hilang, dan perkusi HIPERSONOR (bergema seperti drum)."
+  }
+ },
+ "quiz": [
+  {
+   "id": "k1",
+   "topic": "Anatomi",
+   "question": "Urutan jalannya udara pernapasan dari luar tubuh hingga ke tempat pertukaran gas yang benar adalah...",
+   "options": [
+    "Hidung → Faring → Laring → Trakea → Bronkus → Bronkiolus → Alveolus",
+    "Hidung → Laring → Faring → Trakea → Bronkiolus → Bronkus → Alveolus",
+    "Hidung → Faring → Trakea → Laring → Bronkus → Alveolus",
+    "Mulut → Kerongkongan → Trakea → Bronkus → Alveolus"
+   ],
+   "correctIndex": 0,
+   "explanation": "Udara melewati rongga hidung → faring → laring → trakea → bronkus → bronkiolus → alveolus."
+  },
+  {
+   "id": "k2",
+   "topic": "Anatomi",
+   "question": "Fungsi utama selaput lendir (mukus) dan rambut getar (silia) di saluran pernapasan adalah...",
+   "options": [
+    "Mengikat oksigen ke dalam pembuluh darah",
+    "Menyaring debu, kotoran, dan kuman agar tidak masuk ke paru-paru",
+    "Menghasilkan suara saat berbicara",
+    "Mengatur kontraksi otot diafragma"
+   ],
+   "correctIndex": 1,
+   "explanation": "Mukus menjebak partikel debu dan mikroorganisme, lalu silia menyapunya keluar menuju faring."
+  },
+  {
+   "id": "k3",
+   "topic": "Anatomi",
+   "question": "Cincin tulang rawan berbentuk huruf C pada trakea bertujuan untuk...",
+   "options": [
+    "Membantu difusi gas karbon dioksida",
+    "Membuat trakea tetap terbuka (tidak kempis) saat bernapas",
+    "Menghasilkan cairan surfaktan",
+    "Memisahkan rongga dada dan rongga perut"
+   ],
+   "correctIndex": 1,
+   "explanation": "Cincin tulang rawan hialin menjaga bentuk pipa trakea agar saluran udara selalu terbuka."
+  },
+  {
+   "id": "k4",
+   "topic": "Fisiologi",
+   "question": "Ketika otot diafragma berkontraksi dan posisinya mendatar ke bawah, maka yang terjadi adalah...",
+   "options": [
+    "Volume rongga dada mengecil dan udara keluar (ekspirasi)",
+    "Volume rongga dada membesar, tekanan paru turun, udara masuk (inspirasi)",
+    "Tulang rusuk turun sehingga udara terdorong keluar",
+    "Paru-paru mengempis secara pasif"
+   ],
+   "correctIndex": 1,
+   "explanation": "Kontraksi diafragma memperbesar volume rongga toraks sehingga tekanan intrapulmonal turun di bawah tekanan atmosfer dan udara mengalir masuk."
+  },
+  {
+   "id": "k5",
+   "topic": "Fisiologi",
+   "question": "Pertukaran gas oksigen (O₂) dan karbon dioksida (CO₂) di alveolus terjadi karena perbedaan konsentrasi melalui mekanisme...",
+   "options": [
+    "Difusi",
+    "Transpor aktif",
+    "Fagositosis",
+    "Evaporasi"
+   ],
+   "correctIndex": 0,
+   "explanation": "O₂ berdifusi dari alveolus (tekanan tinggi) ke kapiler darah (rendah), sedangkan CO₂ berdifusi dari darah ke alveolus."
+  },
+  {
+   "id": "k6",
+   "topic": "Fisiologi",
+   "question": "Volume udara yang keluar-masuk paru-paru secara normal saat seseorang bernapas santai/istirahat (±500 mL) disebut...",
+   "options": [
+    "Kapasitas Total Paru",
+    "Volume Tidal",
+    "Volume Residu",
+    "Kapasitas Vital"
+   ],
+   "correctIndex": 1,
+   "explanation": "Volume tidal adalah volume udara pernapasan biasa saat istirahat, sekitar 500 mL pada orang dewasa/remaja."
+  },
+  {
+   "id": "k7",
+   "topic": "Lab Klinis",
+   "question": "Suara napas normal yang terdengar lembut dengan fase inspirasi lebih panjang daripada ekspirasi di hampir seluruh lapangan paru adalah...",
+   "options": [
+    "Wheezing",
+    "Vesikuler",
+    "Crackles",
+    "Stridor"
+   ],
+   "correctIndex": 1,
+   "explanation": "Suara vesikuler adalah suara napas normal paru perifer dengan inspirasi lebih panjang daripada ekspirasi."
+  },
+  {
+   "id": "k8",
+   "topic": "Lab Klinis",
+   "question": "Bunyi napas tambahan bernada tinggi seperti siulan saat ekspirasi akibat penyempitan bronkiolus pada pasien asma disebut...",
+   "options": [
+    "Ronki basah (Crackles)",
+    "Mengi (Wheezing)",
+    "Perkusi sonor",
+    "Suara trakeal"
+   ],
+   "correctIndex": 1,
+   "explanation": "Wheezing (mengi) terdengar seperti siulan musikal saat udara dipaksa melewati bronkiolus yang menyempit."
+  },
+  {
+   "id": "k9",
+   "topic": "Lab Klinis",
+   "question": "Pada pemeriksaan fisik paru (IPPA), teknik mengetuk dinding dada untuk menilai apakah di bawahnya berisi udara, cairan, atau jaringan padat disebut...",
+   "options": [
+    "Inspeksi",
+    "Palpasi",
+    "Perkusi",
+    "Auskultasi"
+   ],
+   "correctIndex": 2,
+   "explanation": "Urutan IPPA: Inspeksi (melihat), Palpasi (meraba), Perkusi (mengetuk), dan Auskultasi (mendengarkan dengan stetoskop)."
+  },
+  {
+   "id": "k10",
+   "topic": "Lab Klinis",
+   "question": "Jika hasil perkusi dada kiri terdengar HIPERSONOR (bergema seperti drum) disertai gerakan dada kiri tertinggal, kemungkinan kondisinya adalah...",
+   "options": [
+    "Pneumotoraks kiri",
+    "Asma ringan",
+    "Paru-paru normal",
+    "Bronkitis"
+   ],
+   "correctIndex": 0,
+   "explanation": "Hipersonor menandakan adanya udara berlebih di rongga pleura (Pneumotoraks) yang membuat suara ketukan bergema keras."
+  }
+ ]
+}
