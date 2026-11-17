@@ -1,0 +1,63 @@
+# Deploy otomatis RespiQuest ke GitHub Pages.
+# Berjalan setiap kali ada push ke branch main/master (termasuk saat Anda mengganti file soal/Soal_RespiQuest.xlsx),
+# atau manual lewat tab Actions > "Deploy RespiQuest" > Run workflow.
+name: Deploy RespiQuest
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ambil kode
+        uses: actions/checkout@v4
+
+      - name: Siapkan Python (untuk membaca spreadsheet soal)
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Ubah spreadsheet soal menjadi data game
+        run: |
+          pip install openpyxl
+          python scripts/xlsx_to_json.py
+
+      - name: Siapkan Bun (pemasang paket)
+        uses: oven-sh/setup-bun@v2
+
+      - name: Pasang dependensi
+        run: bun install --frozen-lockfile || bun install
+
+      - name: Build game
+        run: bun run build
+
+      - name: Siapkan Pages
+        uses: actions/configure-pages@v5
+
+      - name: Unggah hasil build
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publikasikan ke GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
